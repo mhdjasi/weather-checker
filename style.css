@@ -1,0 +1,73 @@
+h2{
+    color: rgb(250, 255, 254);
+    padding: 20px;
+
+}
+.card{
+    background-image: linear-gradient(to right, rgb(10, 6, 6), rgb(134, 133, 42));    text-align: center;
+    justify-content: center;
+    
+    font-family: 'Caveat', cursive;
+    border-radius: 2%;
+
+}
+form{
+    justify-content: center;
+}
+.row{
+    color: rgb(221, 221, 220);
+    display: flex;
+    
+
+}
+
+.place{
+    font-size: 60px;
+    text-align: left;
+    margin-left: 80px;
+}
+.temp{
+    margin-left: 80px;
+
+    font-size: 130px;
+    text-align: left;
+}
+#c{
+    margin-left: 20px;
+
+    font-size: 50px;
+}
+#te{
+    display: flex;
+}
+#fl{
+    display: flex;
+}
+#t{
+    font-size: 13px;
+}
+#description{
+    margin-left: 80px;
+
+    font-size: 30px;
+    text-align: left;
+}
+#logo{
+    width: 80%;
+    margin-left: 100px;
+}
+.card2{
+    font-family: 'Caveat', cursive;
+text-align: justify;
+margin-left: 80px;
+margin-right: 80px;
+font-size: 18px;
+background-color: rgba(0, 0, 0, 0.568);
+padding: 10px;
+border-radius: 2%;
+color: rgb(236, 222, 219);
+
+}
+h3{
+    color: rgb(136, 212, 201);
+}

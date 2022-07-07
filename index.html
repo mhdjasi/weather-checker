@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/5897127e39.js" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="./style.css">
+    <title>Weather Application</title>
+</head>
+<body>
+    
+<center>
+        <div class="card w-100 ">
+            
+            <h2 style="font-family: 'Caveat', cursive; font-size: 40px" class="">Weather Checker</h2>
+
+            <form class="d-flex" role="search">
+                <input style="font-family: 'Caveat', cursive;" id="input" class="form-control ms-5 me-2 w-50" type="search" placeholder="search city" aria-label="Search">
+                <button type="button" onclick="weather()"  style="font-family: 'Caveat', cursive; background-color: rgb(16, 87, 63);" id="button" class=" btn btn-outline-light" type="submit">Search</button>
+            </form>
+
+<br>
+            <div class="row me-0 ms-0">
+
+                <div class="col-lg-4">
+                    <div id="te"><div id="temp" class="temp"></div><div id="c">° C</div></div>  
+                    <div id="place" class="place">kochi</div>
+                    <div id="description" class="description">cloudy</div>
+                </div>
+                <div class="col-lg-4"><img id="logo" src="./sun.png" alt=""></div>
+
+                <div class="col-lg-4">
+                    <div class="card2 ">
+                        <h3>Feels Like</h3>
+<div id="fl"><div id="feelslike" class="feelslike">26°</div><div id="t">° C</div></div>
+<h3>Humidity</h3>
+<div id="humidity" class="humidity">82</div>
+<h3>Pressure</h3>
+<div id="pressure" class="pressure">936</div>
+<h3>Wind</h3>
+<div id="wind" class="wind">6.17 km/hr</div>
+<h3>Visibility</h3>
+<div id="visibility" class="visibility">10000</div>
+<h3>Country</h3>
+<div id="country"></div>
+
+                    </div>
+                    <br><br>
+                </div>
+
+            </div>
+
+
+        </div>
+    </center>
+   
+ </body>
+<script src="./script.js"></script>
+</html>
