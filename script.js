@@ -15,7 +15,7 @@ function weather(){
 }
 
 function display(cityWeather){
-    if(cityWeather.cod=="404"){
+    if(cityWeather.cod !="200"){
         alert('wrong city name!!')
     }
     else{
@@ -30,6 +30,10 @@ function display(cityWeather){
         country.innerHTML = cityWeather.sys.country
     }
 }
+
+
+
+
 
 
 
