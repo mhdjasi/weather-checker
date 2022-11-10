@@ -1,17 +1,17 @@
 *{
     font-family: 'Rubik', sans-serif;
 }
-h2{
-    color: rgb(250, 255, 254);
-    padding: 20px;
-
-}
-.card{
+body{
     background-image: linear-gradient(to right, rgb(10, 6, 6), rgb(134, 133, 42));    text-align: center;
+}
+h2{
+    color: #00f2ff;
+    padding: 20px;
+}
+.main{
     justify-content: center;
-    font-family: 'Rubik', sans-serif;
-    border-radius: 2%;
-
+    overflow: hidden;
+    
 }
 form{
     justify-content: center;
@@ -20,7 +20,10 @@ form{
     color: rgb(221, 221, 220);
     display: flex;
     
-
+}
+.img{
+    align-items: center;
+    justify-content: center;    
 }
 
 .place{
@@ -50,13 +53,14 @@ form{
 }
 #description{
     margin-left: 80px;
-
     font-size: 30px;
     text-align: left;
 }
 #logo{
-    width: 80%;
     margin-left: 100px;
+    width:  90%;
+    justify-content: center;
+    text-align: center;
 }
 .card2{
 
@@ -66,10 +70,46 @@ margin-right: 80px;
 font-size: 18px;
 background-color: rgba(0, 0, 0, 0.568);
 padding: 10px;
-border-radius: 2%;
 color: rgb(236, 222, 219);
 
 }
 h3{
     color: rgb(136, 212, 201);
 }
+
+/* Media Query for Mobile Devices */
+@media (max-width: 767px) {
+
+    #logo{
+        margin-left: 10px;
+        width:  80%;
+        justify-content: center;
+        text-align: center;
+    }
+    .place{
+        font-size: 40px;
+        text-align: left;
+        margin-left: 80px;
+    }
+    .temp{
+        font-size: 70px;
+        text-align: left;
+    }
+    #c{
+        margin-left: 20px;
+    
+        font-size: 30px;
+    }
+    #t{
+        font-size: 11px;
+
+    }
+    #description{
+        margin-left: 80px;
+        font-size: 18px;
+        text-align: left;
+    }
+   
+}
+  
+
